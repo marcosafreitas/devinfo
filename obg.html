@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DevInfo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+        </head>
+<body>
+    <header>
+        <div class="container">
+            <div class="text">
+                <h1>Informações e Homenagens</h1>
+            </div>
+            <img src="images/logotipo.png" alt="A imagem mostra o logotipo do Mercado Livre, que consiste em duas mãos se apertando em um gesto de cumprimento. A mão à esquerda é branca e a mão à direita é amarela. Elas estão dentro de um círculo com fundo amarelo e borda azul. Abaixo das mãos, está escrito 'mercado livre' em letras minúsculas e na cor azul. O fundo da imagem é branco, destacando o logotipo no centro.">
+        </div>
+    </header>
+    <div class="menu-container">
+        <aside class="menu-vertical">
+            <h2>Menu de Navegação</h2>
+            <ul>
+                <li><a href="index.html">Início</a></li>
+                <li><a href="card.html">Carrinho</a></li>
+                <li><a href="pagamentos.html">Pagamento</a></li>
+                            <li><a href="obg.html">Informações do projeto e Homenagens</a></li>
+            </ul>
+        </aside>
+        <main class="container-obg">
+            <h2 class="h2-obg">Dados do Projeto</h2>
+            <p class="p-obg">
+                <strong>PROJETO DE CONCLUSÃO DE CURSO DEVSTARS</strong><br>
+                <strong>(MÓDULO FUNDAMENTOS WEB - PROF. DANIEL QUADROS)</strong><br><br>
+                O objetivo deste projeto é desenvolver uma loja virtual simples que importe produtos do Mercado Livre e permita adicionar itens a um carrinho de compras. O foco é praticar a manipulação de APIs, a manipulação do DOM e o uso de <code>localStorage</code> para gerenciar o estado do carrinho de compras.<br><br>
+                Desenvolvido por Marcos Aurélio de Freitas, este projeto faz parte do módulo Fundamentos Web da PCD Web DevStars e foi realizado no ano de 2024. A data de conclusão é 07/08/2024 e a modalidade de ensino foi à distância via Microsoft Teams.<br><br>
+                O projeto foi orientado e avaliado pelo professor Daniel Quadros, Mestre em Fullstack.
+            </p><br>
+            <h2 class="h2-obg">Homenagens da Desenvolvedora do Projeto</h2>
+            <p class="p-obg">Eu, Cida Marxs, gostaria de expressar meu sincero agradecimento ao Professor Daniel Quadros. Sua paciência, dedicação e sabedoria foram verdadeiros faróis que iluminaram nossa jornada. Sua empatia e conselhos generosos não apenas enriqueceram nosso aprendizado, mas também tocaram nossos corações de maneira profunda. Sou imensamente grata por todo o apoio e orientação que nos ofereceu.</p>
+
+            <p class="p-obg">Também quero agradecer de coração aos meus colegas de curso. A parceria, a amizade e o espírito colaborativo que compartilhamos tornaram esta experiência ainda mais especial. Nossos caminhos podem se separar aqui, mas a amizade e o companheirismo que construímos ficarão para sempre. Conte comigo, e que nossos caminhos se cruzem novamente no futuro.</p>
+
+            <p class="p-obg">Como está escrito em Provérbios 27:17: "Assim como o ferro afia o ferro, o homem afia o seu companheiro." Que essa verdade permaneça em nossos corações, e que possamos continuar a nos apoiar mutuamente em nossas jornadas futuras.</p>
+            <button id="home-button" class="btn btn-primary btn-home">Voltar para a Página Inicial</button>
+        </main>
+    </div>
+
+    <script>
+        document.getElementById('home-button').addEventListener('click', function() {
+            window.location.href = 'index.html';
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+    <footer>
+        &copy; 2024<br>
+        @DevStars e @Mercado Livre. Todos os direitos reservados.<br>
+        Desenvolvido por Cida Marxs.<br>
+        Orientado e avaliado por Daniel Quadros - Mestre em Fullstack.
+    </footer>
+</body>
+</html>

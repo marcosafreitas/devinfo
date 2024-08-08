@@ -1,0 +1,165 @@
+  
+}
+
+body {
+    background-color: mistyrose;
+    color: #1e1e1e;
+    margin: 0;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 30px; 
+    text-align: center;
+}
+
+header {
+    background-color: #1e1e1e;
+    color: gold;
+    font-family:unset;
+    font-size: 40px;
+    text-align: center;
+    padding: 10px;
+    align-items: center;
+    }
+
+.logo img {
+    max-width: 20%;
+    height: auto;
+    }
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px; 
+    margin: 0 auto;
+}
+
+.text {
+    flex: 1;
+    text-align: right;
+    }
+
+h2 {
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 35px;
+    text-align: center;
+    color: #7D0F2A; /* vermelho vinho */
+}
+
+footer {
+    background-color: #1e1e1e;
+    color: gold;
+    font-family: 'fonteParagrafos';
+    font-size: 20px;
+    text-align: left;
+    padding: 10px;
+}
+
+p {
+    font-family: 'fonteParagrafos';
+    font-size: 30px; 
+    text-align: center;
+    color: #1e1e1e; /* cor grafite */
+}
+
+.menu-container {
+    display: flex;
+    }
+
+.menu-vertical {
+    flex: 0 0 200px;
+    background-color: mistyrose;
+    padding: 20px;
+}
+
+.menu-vertical {
+    display: flex;
+    flex-direction:column;
+    flex: 0 0 200px; /* Define a largura fixa do menu */
+    background-color: mistyrose;
+    padding: 20px;
+}
+
+.menu-vertical ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
+
+.menu-vertical ul li {
+    margin: 0;
+    padding: 0;
+}
+
+.menu-vertical ul li a {
+    text-decoration: none;
+    color: #7D0F2A;
+    padding: 10px;
+    display: block; /* Faz os links ocuparem toda a largura do item da lista */
+}
+
+.menu-vertical ul li a:hover {
+    background-color: blac;
+}
+
+.menu-vertical ul li a:visited {
+    color: #7D0F2A;
+}
+
+.main-content {
+    flex: 1;
+    padding: 20px;
+}
+
+/*Estilizando a folha de pagamentos*/
+.container-pg {
+font-family: 'fonteParagrafos';
+width: 80;
+max-width: 800px;
+margin: 2rem auto;
+padding: 1rem;
+background-color: mistyrose;
+border-radius: 8px;
+text-align: left;
+}
+.form-group {
+    margin-bottom: 1rem;;
+    text-align: left;
+}
+
+label {
+    display: block;
+    margin-bottom: 5rem;
+    text-align: left;
+}
+
+input[type="radio"], input[type="number"] {
+margin-right: 5rem;
+}
+
+.status {
+    margin-top: 1rem;
+    padding: 1rem;
+    border: 1px solid #7D0F2A;
+    border-radius: 10px;
+    }
+
+    .status.approved {
+color: #2E8B57; /* verde pinho */
+text-align: center;
+    }
+
+    .status.declined {
+        color: #CC0000; /* vermelho ferrari */
+        text-align: center;
+            }
+
+            button {
+                background-color: #2E8B57;
+                color: mistyrose;
+                border: none;
+                padding: 0.75rem     1.5rem;
+                font-size: medium;
+                border-radius: 10px;
+                cursor: pointer;
+                            }
+
